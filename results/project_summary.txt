@@ -1,0 +1,45 @@
+
+STUDENT PERFORMANCE PREDICTION
+================================
+
+PROJECT OVERVIEW
+
+Project: Student Performance Prediction
+Dataset: UCI Student Performance Dataset
+
+DATASET INFORMATION
+
+Total student records: 395
+Number of input features: 35
+Target variable: G3
+Average final grade: 10.42
+
+MODEL PERFORMANCE
+
+              Model   MAE   MSE  RMSE  R2 Score
+      Random Forest 1.138 3.603 1.898     0.824
+Tuned Random Forest 1.132 3.457 1.859     0.831
+
+BEST MODEL
+
+Model: Tuned Random Forest
+MAE: 1.132
+RMSE: 1.859
+R2 Score: 0.831
+
+PROJECT CONCLUSION
+
+This project uses machine learning regression models
+to predict students' final academic performance.
+
+The models were evaluated using MAE, RMSE, and R2 Score.
+
+The best-performing model was selected based on
+the lowest Mean Absolute Error.
+
+The project demonstrates data preprocessing,
+feature engineering, model training, evaluation,
+and prediction.
+
+================================
+END OF PROJECT SUMMARY
